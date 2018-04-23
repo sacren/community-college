@@ -1,5 +1,28 @@
 /* Import fonts */
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Merriweather+Sans');
+
+@font-face {
+  font-family: 'butler-regular';
+  src: url('./fonts/butler-regular.woff2') format('woff2'),
+       url('./fonts/butler-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'butler-medium';
+  src: url('./fonts/butler-medium.woff2') format('woff2'),
+       url('./fonts/butler-medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'librefranklin-regular';
+  src: url('./fonts/librefranklin-regular.woff2') format('woff2'),
+       url('./fonts/librefranklin-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 /* General styles */
 * {
@@ -10,11 +33,11 @@ body {
   margin: 0 auto;
   min-width: 1000px;
   max-width: 1400px;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'librefranklin-regular', sans-serif;
 }
 
 h2 {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'butler-medium', serif;
 }
 
 /* Layout */
