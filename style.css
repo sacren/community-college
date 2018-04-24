@@ -29,19 +29,27 @@
   box-sizing: border-box;
 }
 
+/* site-wide font-size */
+html {
+  font-size: 10px;
+}
+
 body {
   margin: 0 auto;
   min-width: 1000px;
   max-width: 1400px;
   font-family: 'librefranklin-regular', sans-serif;
+  font-size: 1.5rem;
 }
 
 h1 {
   font-family: 'butler-bold', serif;
+  font-size: 3.0rem;
 }
 
 h2 {
   font-family: 'butler-medium', serif;
+  font-size: 1.8rem;
 }
 
 /* Layout */
@@ -72,9 +80,4 @@ header, section, aside, nav, footer {
 header, footer {
   border-top: 5px solid #a66;
   border-bottom: 5px solid #a66;
-}
-
-/* site-wide font-size */
-html {
-  font-size: 10px;
 }
