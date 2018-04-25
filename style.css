@@ -41,6 +41,8 @@ body {
   font-family: 'librefranklin-regular', sans-serif;
   font-size: 1.5rem;
   line-height: 1.5rem;
+  letter-spacing: 0.04rem;
+  word-spacing: 0.02rem;
 }
 
 h1 {
@@ -51,6 +53,7 @@ h1 {
 h2 {
   font-family: 'butler-medium', serif;
   font-size: 1.8rem;
+  letter-spacing: 0.08rem;
 }
 
 /* Layout */
