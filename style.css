@@ -89,3 +89,7 @@ header, footer {
 header {
   text-align: center;
 }
+
+section > h2 + p {
+  text-indent: 2.0rem;
+}
