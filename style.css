@@ -93,3 +93,7 @@ header {
 section > h2 + p {
   text-indent: 2.0rem;
 }
+
+a:link, a:visited, a:focus, a:hover {
+  color: rgb(170, 102, 102);
+}
