@@ -97,3 +97,7 @@ section > h2 + p {
 a:link, a:visited, a:focus, a:hover {
   color: rgb(170, 102, 102);
 }
+
+a:focus, a:hover {
+  text-decoration-line: none;
+}
