@@ -94,10 +94,11 @@ section > h2 + p {
   text-indent: 2.0rem;
 }
 
-a:link, a:visited, a:focus, a:hover {
+a:link, a:visited {
   color: rgb(170, 102, 102);
 }
 
 a:focus, a:hover {
+  color: rgb(170, 102, 102);
   text-decoration-line: none;
 }
