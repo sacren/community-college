@@ -111,4 +111,5 @@ a:hover {
 a:active {
   color: white;
   background-color: rgb(170, 102, 102);
+  padding: 0 2px;
 }
