@@ -124,3 +124,19 @@ a:active {
 li {
   line-height: 1.5;
 }
+
+section ul li {
+  list-style: circle;
+}
+
+section ol li {
+  list-style: upper-alpha;
+}
+
+aside ul li {
+  list-style: square;
+}
+
+nav li {
+  list-style: none;
+}
