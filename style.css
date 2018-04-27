@@ -98,7 +98,12 @@ a:link, a:visited {
   color: rgb(170, 102, 102);
 }
 
-a:focus, a:hover {
+a:focus {
+  color: rgb(170, 102, 102);
+  outline-style: none;
+}
+
+a:hover {
   color: rgb(170, 102, 102);
   text-decoration-line: none;
 }
