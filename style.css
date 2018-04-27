@@ -120,3 +120,7 @@ a:active {
   padding-left: 0.2rem;
   padding-right: 1.4rem;
 }
+
+li {
+  line-height: 1.5;
+}
