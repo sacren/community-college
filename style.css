@@ -125,10 +125,6 @@ section p a:active {
   padding-right: 1.4rem;
 }
 
-li {
-  line-height: 1.5;
-}
-
 section ul li {
   list-style: circle;
 }
