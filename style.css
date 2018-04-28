@@ -137,6 +137,8 @@ aside ul li {
   list-style: square;
 }
 
+/* Navigation menu */
+
 nav li {
   list-style: none;
   height: 5rem;
